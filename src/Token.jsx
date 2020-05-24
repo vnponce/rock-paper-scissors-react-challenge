@@ -35,10 +35,12 @@ const TokenStyled = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;  
+    img {
+      width: 40%;
+    }
   }
-  @media screen and (min-width: 768px) {
-    width: 200px;
-    height: 195px;
+  @media screen and (min-width: 1024px) {
+    ${({ playing }) => playing ? 'width: 300px; height: 295px; border-width: 32px;' : 'width: 200px; height: 195px;'}
   }
 `;
 
@@ -61,7 +63,7 @@ const colors = {
   },
 };
 
-function Token({ name = 'default', onClick, isShadowAnimated = false }) {
+function Token({ name = 'default', onClick, isShadowAnimated = false, playing = false }) {
   console.log('name =>', name);
   function handleClick() {
     if(onClick) {
@@ -70,7 +72,7 @@ function Token({ name = 'default', onClick, isShadowAnimated = false }) {
   };
   const color = colors[name];
   return (
-    <TokenStyled color={color} onClick={handleClick} name={name} isShadowAnimated={isShadowAnimated}>
+    <TokenStyled color={color} onClick={handleClick} name={name} isShadowAnimated={isShadowAnimated} playing={playing}>
       <div className="box">
         <img src={`./images/icon-${name}.svg`} alt=""/>
       </div>

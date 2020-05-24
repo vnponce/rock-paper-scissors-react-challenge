@@ -3,25 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="71de0d20-99a5-4c16-bd68-97e50849b711" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rules.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rules.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Token.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Token.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wrapper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/score.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/score.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>setResult</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,7 +65,7 @@
       <workItem from="1590326634415" duration="11000" />
       <workItem from="1590346839557" duration="62000" />
       <workItem from="1590346912039" duration="285000" />
-      <workItem from="1590347223772" duration="2340000" />
+      <workItem from="1590347223772" duration="5987000" />
     </task>
     <servers />
   </component>
@@ -91,13 +81,17 @@
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="1909" y="10" key="SettingsEditor/0.23.1440.877/1440.-157.1920.1057/-1920.-157.1920.1057@1440.-157.1920.1057" timestamp="1590347004225" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1590355068192">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1590364446653">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1440.877/1440.-157.1920.1057/-1920.-157.1920.1057@1440.-157.1920.1057" timestamp="1590355068192" />
-    <state x="2065" y="78" width="670" height="676" key="search.everywhere.popup" timestamp="1590354722395">
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.877/1440.-157.1920.1057/-1920.-157.1920.1057@1440.-157.1920.1057" timestamp="1590364446653" />
+    <state x="2202" y="292" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590364426242">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
-    <state x="2065" y="78" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.-157.1920.1057/-1920.-157.1920.1057@1440.-157.1920.1057" timestamp="1590354722395" />
+    <state x="2202" y="292" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/1440.-157.1920.1057/-1920.-157.1920.1057@1440.-157.1920.1057" timestamp="1590364426242" />
+    <state x="2065" y="78" width="670" height="676" key="search.everywhere.popup" timestamp="1590358629276">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="2065" y="78" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.-157.1920.1057/-1920.-157.1920.1057@1440.-157.1920.1057" timestamp="1590358629276" />
   </component>
 </project>

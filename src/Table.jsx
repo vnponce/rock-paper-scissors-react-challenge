@@ -60,10 +60,29 @@ const TableWrapper = styled.div`
       margin: 10px;
     }
   }
-  @media screen and (min-width: 768px) {
-    grid-gap: 30px 140px;
+  @media screen and (min-width: 1024px) {
+    // grid-gap: 30px 140px;
+    grid-template-columns: 300px 300px;
+    ${({ playing, results }) => (playing && results) && 'grid-template-columns: 300px 110px 110px 300px;'}
+    & div:nth-of-type(3) {
+      ${({ playing, results }) => (playing && results) && 'grid-column: 2 / 4; grid-row: 1;'}
+    }
     .line {
       width: 300px;
+    }
+    .results {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .in-game {
+      font-size: 1.2em;
+      display: flex;
+      flex-direction: column-reverse;
+      p {
+        margin-bottom: 2em;
+      }
     }
   }
 `;
@@ -147,7 +166,7 @@ function Table() {
     setPlaying(false);
   }
   return (
-    <TableWrapper playing={playing}>
+    <TableWrapper playing={playing} results={result !== ''}>
       <span className="line"></span>
       {
         !playing ? (
@@ -159,21 +178,23 @@ function Table() {
         ) : (
           <>
             <div className="in-game">
-              <Token name={pick} isShadowAnimated={result === 'win'}/>
+              <Token name={pick} playing={playing} isShadowAnimated={result === 'win'}/>
               <p>You picked</p>
             </div>
             <div className="in-game">
-              <Token name={housePick} isShadowAnimated={result === 'lose'}/>
+              <Token name={housePick} playing={playing} isShadowAnimated={result === 'lose'}/>
               <p>The house picked</p>
             </div>
-            { result &&
               <div className="results">
-                <h2>YOU {result}</h2>
-                <WhiteButton onClick={handleTryAgainClick}>
-                  Try Again
-                </WhiteButton>
+                { result &&
+                  <>
+                    <h2>YOU {result}</h2>
+                    <WhiteButton onClick={handleTryAgainClick}>
+                      Try Again
+                    </WhiteButton>
+                  </>
+                }
               </div>
-            }
           </>
         )
       }
