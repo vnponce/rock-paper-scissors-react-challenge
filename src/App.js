@@ -4,6 +4,7 @@ import Header from './header';
 import styled from 'styled-components';
 import Wrapper from './Wrapper'
 import Table from './Table';
+import Rules from './Rules'
 
 const AppStyled = styled.main`
   color: white;
@@ -29,7 +30,7 @@ function App() {
         <div className="app-content">
           <Header/>
           <Table />
-          <span>Rules</span>
+          <Rules />
         </div>
       </Wrapper>
     </AppStyled>
