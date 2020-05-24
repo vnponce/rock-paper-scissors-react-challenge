@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/rock-paper-scissors-react-challenge/static/css/main.5f361e03.chunk.css",
-    "main.js": "/rock-paper-scissors-react-challenge/static/js/main.62d7f9e3.chunk.js",
-    "main.js.map": "/rock-paper-scissors-react-challenge/static/js/main.62d7f9e3.chunk.js.map",
-    "runtime-main.js": "/rock-paper-scissors-react-challenge/static/js/runtime-main.21947eca.js",
-    "runtime-main.js.map": "/rock-paper-scissors-react-challenge/static/js/runtime-main.21947eca.js.map",
-    "static/js/2.e329e084.chunk.js": "/rock-paper-scissors-react-challenge/static/js/2.e329e084.chunk.js",
-    "static/js/2.e329e084.chunk.js.map": "/rock-paper-scissors-react-challenge/static/js/2.e329e084.chunk.js.map",
-    "index.html": "/rock-paper-scissors-react-challenge/index.html",
-    "precache-manifest.d0ee487bea832a4df8983e91cc5bda79.js": "/rock-paper-scissors-react-challenge/precache-manifest.d0ee487bea832a4df8983e91cc5bda79.js",
-    "service-worker.js": "/rock-paper-scissors-react-challenge/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/rock-paper-scissors-react-challenge/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.e329e084.chunk.js.LICENSE.txt": "/rock-paper-scissors-react-challenge/static/js/2.e329e084.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.5f361e03.chunk.css",
+    "main.js": "/static/js/main.8f911de2.chunk.js",
+    "main.js.map": "/static/js/main.8f911de2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5a8e9df9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5a8e9df9.js.map",
+    "static/js/2.c7605555.chunk.js": "/static/js/2.c7605555.chunk.js",
+    "static/js/2.c7605555.chunk.js.map": "/static/js/2.c7605555.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c98117df89ee2970ecd440edbca50653.js": "/precache-manifest.c98117df89ee2970ecd440edbca50653.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.c7605555.chunk.js.LICENSE.txt": "/static/js/2.c7605555.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.21947eca.js",
-    "static/js/2.e329e084.chunk.js",
+    "static/js/runtime-main.5a8e9df9.js",
+    "static/js/2.c7605555.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.62d7f9e3.chunk.js"
+    "static/js/main.8f911de2.chunk.js"
   ]
 }
