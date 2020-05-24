@@ -10,9 +10,6 @@ const AppStyled = styled.main`
   color: white;
   background-image: radial-gradient(circle at top, #1F3757 0%, #131537 100%);
   font-family: 'Barlow Semi Condensed', sans-serif;
-  body {
-    font-family: 'Barlow Semi Condensed', sans-serif;  
-  }
   .app-content {
     padding: 2em;
     box-sizing: border-box;  
