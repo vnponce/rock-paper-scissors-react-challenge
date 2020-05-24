@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71de0d20-99a5-4c16-bd68-97e50849b711" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rules.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rules.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Token.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Token.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,16 +18,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Table.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+            <state relative-caret-position="125">
+              <caret line="90" column="15" selection-start-line="90" selection-start-column="15" selection-end-line="90" selection-end-column="15" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
+                <element signature="n#!!block;n#victory#0;n#!!block;n#Table#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setResult</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,12 +132,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590277703526</updated>
-      <workItem from="1590277704673" duration="12601000" />
+      <workItem from="1590277704673" duration="14369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12601000" />
+    <option name="totallyTimeSpent" value="14369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1441" y="-157" width="1920" height="1057" extended-state="0" />
@@ -277,10 +280,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Table.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        <state relative-caret-position="125">
+          <caret line="90" column="15" selection-start-line="90" selection-start-column="15" selection-end-line="90" selection-end-column="15" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+            <element signature="n#!!block;n#victory#0;n#!!block;n#Table#0" />
           </folding>
         </state>
       </provider>
