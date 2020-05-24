@@ -6,10 +6,12 @@ const ScoreStyled = styled.div`
   padding: 10px 0;
   text-align: center;
   border-radius: 8px;
+  width: 80px;
   small {
     color: #2a45c2;
     text-transform: uppercase;
     font-size: 10px;
+    font-weight: bold;
   }
   p {
     color: #565468;
@@ -17,8 +19,10 @@ const ScoreStyled = styled.div`
     margin: 0;
     font-weight: 700;
     letter-spacing: -2px;
+    position: relative;
+    left: -2.5px;
   }
-`
+`;
 
 function Score() {
   return (
