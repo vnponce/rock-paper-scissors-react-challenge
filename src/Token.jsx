@@ -23,7 +23,6 @@ const TokenStyled = styled.div`
   position: relative;
   z-index: 2;
   ${({ isShadowAnimated }) => isShadowAnimated && 'box-shadow: 0 0 0 0px rgba(255, 255, 255, .03), 0 0 0 0px rgba(255, 255, 255, .02), 0 0 0 0px rgba(255, 255, 255, .01);'};
-  
   animation: 1s ${({ isShadowAnimated }) => isShadowAnimated && shadow} forwards;
   &:active {
     transform: scale(.9);
@@ -36,6 +35,10 @@ const TokenStyled = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;  
+  }
+  @media screen and (min-width: 768px) {
+    width: 200px;
+    height: 195px;
   }
 `;
 
@@ -59,6 +62,7 @@ const colors = {
 };
 
 function Token({ name = 'default', onClick, isShadowAnimated = false }) {
+  console.log('name =>', name);
   function handleClick() {
     if(onClick) {
       onClick(name);
@@ -68,7 +72,7 @@ function Token({ name = 'default', onClick, isShadowAnimated = false }) {
   return (
     <TokenStyled color={color} onClick={handleClick} name={name} isShadowAnimated={isShadowAnimated}>
       <div className="box">
-        <img src={`/images/icon-${name}.svg`} alt=""/>
+        <img src={`./images/icon-${name}.svg`} alt=""/>
       </div>
     </TokenStyled>
   );

@@ -12,11 +12,15 @@ const ButtonStyled = styled.div`
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 2.5px;
+  :hover {
+    background: #fff;
+    color: #101a3f;
+  }
 `;
 
 export const WhiteButton = styled(ButtonStyled)`
   background: #fff;
-  color: black;
+  color: #101a3f;
   min-width: 220px;
 `;
 

@@ -20,9 +20,8 @@ const TableWrapper = styled.div`
     height: 15px;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
-    left: 60px;
-    right: 60px;
-    top: 60px;
+    width: 200px;
+    top: 58px;
     &:before {
       content: '';
       height: 15px;
@@ -59,6 +58,12 @@ const TableWrapper = styled.div`
       text-transform: uppercase;
       font-size: 56px;
       margin: 10px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    grid-gap: 30px 140px;
+    .line {
+      width: 300px;
     }
   }
 `;

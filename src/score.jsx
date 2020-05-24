@@ -4,7 +4,7 @@ import { ScoreContext } from './App';
 
 const ScoreStyled = styled.div`
   background: #fff;
-  padding: 10px 0;
+  padding: 10px;
   text-align: center;
   border-radius: 8px;
   width: 80px;
@@ -23,6 +23,15 @@ const ScoreStyled = styled.div`
     letter-spacing: -2px;
     position: relative;
     left: -2.5px;
+  }
+  @media screen and (min-width: 764px) {
+    padding: 10px 20px;
+    small {
+      font-size: 16px;
+    }
+    p {
+      font-size: 60px;
+    }
   }
 `;
 
