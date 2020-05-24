@@ -150,11 +150,11 @@ function Table() {
         ) : (
           <>
             <div className="in-game">
-              <Token name={pick} />
+              <Token name={pick} isShadowAnimated={result === 'win'}/>
               <p>You picked</p>
             </div>
             <div className="in-game">
-              <Token name={housePick} />
+              <Token name={housePick} isShadowAnimated={result === 'lose'}/>
               <p>The house picked</p>
             </div>
             <div className="results">

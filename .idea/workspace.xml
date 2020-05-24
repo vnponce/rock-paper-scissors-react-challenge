@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71de0d20-99a5-4c16-bd68-97e50849b711" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Token.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Token.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/score.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/score.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,12 +17,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Token.jsx">
+        <entry file="file://$PROJECT_DIR$/src/Table.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+            <state relative-caret-position="410">
+              <caret line="156" column="72" selection-start-line="156" selection-start-column="72" selection-end-line="156" selection-end-column="72" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#52#0" expanded="true" />
+                <element signature="n#!!block;n#launchHousePick#0;n#!!block;n#Table#0" />
+                <element signature="n#!!block;n#playWithIA#0;n#!!block;n#Table#0" />
               </folding>
             </state>
           </provider>
@@ -52,8 +52,8 @@
         <option value="$PROJECT_DIR$/src/Button.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/score.jsx" />
-        <option value="$PROJECT_DIR$/src/Table.jsx" />
         <option value="$PROJECT_DIR$/src/Token.jsx" />
+        <option value="$PROJECT_DIR$/src/Table.jsx" />
       </list>
     </option>
   </component>
@@ -134,12 +134,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590277703526</updated>
-      <workItem from="1590277704673" duration="15169000" />
+      <workItem from="1590277704673" duration="16373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15169000" />
+    <option name="totallyTimeSpent" value="16373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1441" y="-157" width="1920" height="1057" extended-state="0" />
@@ -270,22 +270,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Table.jsx">
+    <entry file="file://$PROJECT_DIR$/src/Token.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="101" column="3" lean-forward="true" selection-start-line="101" selection-start-column="3" selection-end-line="101" selection-end-column="3" />
+        <state relative-caret-position="513">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Token.jsx">
+    <entry file="file://$PROJECT_DIR$/src/Table.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        <state relative-caret-position="410">
+          <caret line="156" column="72" selection-start-line="156" selection-start-column="72" selection-end-line="156" selection-end-column="72" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#52#0" expanded="true" />
+            <element signature="n#!!block;n#launchHousePick#0;n#!!block;n#Table#0" />
+            <element signature="n#!!block;n#playWithIA#0;n#!!block;n#Table#0" />
           </folding>
         </state>
       </provider>
