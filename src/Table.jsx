@@ -55,7 +55,11 @@ const TableWrapper = styled.div`
   }
   .results {
     text-align: center;
-    text-transform: uppercase;
+    h2 {
+      text-transform: uppercase;
+      font-size: 56px;
+      margin: 10px;
+    }
   }
 `;
 
@@ -157,12 +161,14 @@ function Table() {
               <Token name={housePick} isShadowAnimated={result === 'lose'}/>
               <p>The house picked</p>
             </div>
-            <div className="results">
-              <h2>YOU {result}</h2>
-              <WhiteButton onClick={handleTryAgainClick}>
-                Try Again
-              </WhiteButton>
-            </div>
+            { result &&
+              <div className="results">
+                <h2>YOU {result}</h2>
+                <WhiteButton onClick={handleTryAgainClick}>
+                  Try Again
+                </WhiteButton>
+              </div>
+            }
           </>
         )
       }
