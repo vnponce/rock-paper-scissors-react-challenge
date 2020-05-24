@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import styled from 'styled-components';
 import Token from './Token';
 import { WhiteButton } from './Button'
+import { ScoreContext } from "./App";
 
 const TableWrapper = styled.div`
   display: grid;
@@ -70,6 +71,7 @@ function Table() {
   const [pick, setPick] = useState('');
   const [result, setResult] = useState('');
   const [housePick, setHousePick] = useState('default');
+  const { score, setScore } = useContext(ScoreContext);
   function getRandomInt(min, max) {
     return Math.floor(Math.random() * ( max - min) + min);
   }
@@ -94,6 +96,9 @@ function Table() {
     const house = await launchHousePick();
     const results = playWithIA(name, house);
     setResult(results);
+    if(results === 'win') {
+      setScore(score + 1);
+    }
   }
   function playWithIA(pick, housePick) {
     console.log('comparando', pick, housePick);
