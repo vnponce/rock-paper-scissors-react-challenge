@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rock-paper-scissors-react-challenge/static/css/main.5f361e03.chunk.css",
-    "main.js": "/rock-paper-scissors-react-challenge/static/js/main.10f1f675.chunk.js",
-    "main.js.map": "/rock-paper-scissors-react-challenge/static/js/main.10f1f675.chunk.js.map",
+    "main.js": "/rock-paper-scissors-react-challenge/static/js/main.cd52490e.chunk.js",
+    "main.js.map": "/rock-paper-scissors-react-challenge/static/js/main.cd52490e.chunk.js.map",
     "runtime-main.js": "/rock-paper-scissors-react-challenge/static/js/runtime-main.21947eca.js",
     "runtime-main.js.map": "/rock-paper-scissors-react-challenge/static/js/runtime-main.21947eca.js.map",
     "static/js/2.2e3fe636.chunk.js": "/rock-paper-scissors-react-challenge/static/js/2.2e3fe636.chunk.js",
     "static/js/2.2e3fe636.chunk.js.map": "/rock-paper-scissors-react-challenge/static/js/2.2e3fe636.chunk.js.map",
     "index.html": "/rock-paper-scissors-react-challenge/index.html",
-    "precache-manifest.eaed321a6be89976ff09256534547721.js": "/rock-paper-scissors-react-challenge/precache-manifest.eaed321a6be89976ff09256534547721.js",
+    "precache-manifest.3f792f89538084e6fc75a4624e02ada9.js": "/rock-paper-scissors-react-challenge/precache-manifest.3f792f89538084e6fc75a4624e02ada9.js",
     "service-worker.js": "/rock-paper-scissors-react-challenge/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/rock-paper-scissors-react-challenge/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.2e3fe636.chunk.js.LICENSE.txt": "/rock-paper-scissors-react-challenge/static/js/2.2e3fe636.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.21947eca.js",
     "static/js/2.2e3fe636.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.10f1f675.chunk.js"
+    "static/js/main.cd52490e.chunk.js"
   ]
 }

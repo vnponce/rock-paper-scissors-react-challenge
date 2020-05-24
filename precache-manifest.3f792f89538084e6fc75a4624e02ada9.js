@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68abb21ddeea5d86a848376990390e63",
+    "revision": "087c395e42fce1dbda09bbd39e5a0f3b",
     "url": "/rock-paper-scissors-react-challenge/index.html"
   },
   {
-    "revision": "90584eabafbe8d3505f5",
+    "revision": "2075407c6c7013fc58f2",
     "url": "/rock-paper-scissors-react-challenge/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rock-paper-scissors-react-challenge/static/js/2.2e3fe636.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "90584eabafbe8d3505f5",
-    "url": "/rock-paper-scissors-react-challenge/static/js/main.10f1f675.chunk.js"
+    "revision": "2075407c6c7013fc58f2",
+    "url": "/rock-paper-scissors-react-challenge/static/js/main.cd52490e.chunk.js"
   },
   {
     "revision": "e8a7372667192f36aa27",
